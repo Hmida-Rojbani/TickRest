@@ -21,6 +21,15 @@ public abstract class Food {
 	public void setPrix(double prix) {
 		this.prix = prix;
 	}
+	public Food(String nom, double prix) {
+		super();
+		this.nom = nom;
+		this.prix = prix;
+	}
+	@Override
+	public String toString() {
+		return "Food [nom=" + nom + ", prix=" + prix + "]";
+	}
 	
 	
 }
