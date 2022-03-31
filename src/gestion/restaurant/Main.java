@@ -15,7 +15,7 @@ public class Main {
 		foodsMenu.add(new Entree("Soupe", 6));
 		foodsMenu.add(new Entree("Salde", 7));
 		foodsMenu.add(new Dessert("Glace Chocolat", 5));
-		foodsMenu.add(new Entree("Cake", 8));
+		foodsMenu.add(new Dessert("Cake", 8));
 	}
 
 }
